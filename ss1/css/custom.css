@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-image: #cecece;
+  overflow-x: hidden;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.header {
+  background-color: #006d77;
+  height: auto;
+}
+
+.header-text {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  text-shadow: 2px 2px 2px solid #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 15px 30px;
+  text-shadow: 3px 3px 3px #000000;
+}
+
+.home {
+  padding-top: 10px;
+  display: block;
+  position: relative;
+  z-index: 120;
+  background-color: #fff;
+}
+
+.content-header {
+  padding: 25px 30px 10px 30px;
+  border-radius: 7px;
+  border-bottom: 5px solid #f2f2f2;
+  background: #f1f1f1;
+}
+
+.content-text h2 {
+  font-size: 20px;
+}
+
+.content-text p {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.content-btn {
+  float: right;
+}
+
+.main-content {
+  margin-top: 30px;
+  height: auto;
+}
+
+.main-contents {
+  margin-top: 30px;
+  height: auto;
+  padding: 0 30px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.small-box {
+  background: #006d77;
+  color: #fff;
+  max-width: 300px;
+  margin: 10px auto;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.small-box:hover {
+  background: #00ac96;
+  transform: scale(1.02);
+}
+
+.small-box i {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.small-box h2 {
+  font-size: 30px;
+}
+
+.footer {
+  background-color: #006d77;
+  height: auto;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.footer-text {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.content-text p.last-login {
+  color: #880000;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+.dashboard-title {
+  margin: 30px 0;
+}
+
+.dashboard-title h4 {
+  font-size: 18px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-50 {
+  padding-top: 50px;
+}
+
+.result-header {
+  background: #f1f1f1;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 20px 0;
+}
+
+@media screen and (max-height: 768px) {
+  .main-item {
+    height: 75vh;
+    overflow-y: hidden;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .content-btn {
+    margin: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .dashboard-title h4 {
+    font-size: 22px;
+  }
+  .foot .footer {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position: center !important;
+  background-size: cover !important;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+  width: auto;
+  height: min-content;
+  background: #fff;
+}
+
+.left-column {
+  background: #eee;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.img-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px auto;
+}
+
+img {
+  border: 8px solid #006d77;
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-column .text {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.left-column .sub-text {
+  font-style: italic;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.mt-10 {
+  margin-top: 20px;
+}
+
+.login {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.login h1 {
+  font-size: 32px;
+  margin-bottom: 35px;
+}
+
+.input-group-text i {
+  font-size: 25px;
+}
+.login form {
+  font-size: 20px;
+}
+
+.login form .form-group {
+  margin-bottom: 12px;
+}
+
+.form-group input::placeholder {
+  letter-spacing: 1px;
+}
+
+.login form input[type='submit'] {
+  font-size: 20px;
+  margin-top: 15px;
+  letter-spacing: 6px;
+  background: #006d77;
+}
+
+.login form input[type='submit']:hover {
+  background: #00ac96;
+  transform: scale(1.02);
+  border: none;
+}
+
+.register {
+  text-align: right;
+}
+
+@media screen and (max-height: 990px) {
+  .container {
+    width: auto;
+    height: min-content;
+  }
+}
